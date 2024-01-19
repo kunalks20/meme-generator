@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+main {
+  padding: 36px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  padding: 20px;
+}
+
+.darkHeader {
+  background: linear-gradient(90deg, #1f1f2e 1.18%, #1f1f2e 100%);
+}
+
+.head-image {
+  height: 80%;
+  margin-right: 6px;
+}
+
+.head-title {
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+.course-name {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form-input {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.form-btn {
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.meme {
+  position: relative;
+}
+
+.meme-img {
+  width: 100%;
+}
+
+.meme-text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+
+.darkMeme {
+  background-color: #3d3d5c;
+}
+
+.darkMeme .form-btn{
+  background: linear-gradient(90.41deg, #121234 1.14%, #121234 100%);
+}
+
+.toggler {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.slider {
+  width: 25px;
+  height: 13px;
+  background-color: #2B283A;
+  border-radius: 2rem;
+  margin-inline: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: content-box;
+}
+
+.darkHeader .slider {
+  border-color: white;
+  background-color: #F5F5F5;
+  justify-content: flex-end;
+}
+
+.slider-circle {
+  height: 13px;
+  width: 13px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.darkHeader .slider-circle {
+  background-color: black;
+}
+
+.toggler-light {
+  color: #2B283A;
+}
+
+.darkHeader .toggler-light {
+  color: #918E9B;
+}
+
+.toggler-dark {
+  color: #D5D4D8;
+}
+
+.darkHeader .toggler-dark {
+  color: #FFFFFF;
+}
+
+.toggler p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* .custom{
+  display: grid;
+} */
